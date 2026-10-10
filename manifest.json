@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "RSMS Auto-Filler",
+  "version": "1.0",
+  "description": "Automatically fills feedback forms for Rajagiri Student Portal.",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Auto Fill Feedback"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.rajagiritech.ac.in/*"],
+      "js": ["content.js"]
+    }
+  ]
+}

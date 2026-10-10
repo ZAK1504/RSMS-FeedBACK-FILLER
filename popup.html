@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body { width: 220px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; text-align: center; padding: 15px; margin: 0; background-color: #f8f9fa; }
+        h3 { margin-top: 0; color: #333; }
+        button { padding: 12px; font-size: 16px; font-weight: bold; cursor: pointer; background: #007bff; color: white; border: none; border-radius: 8px; width: 100%; transition: 0.2s; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        button:hover { transform: scale(1.05); }
+        .stop { background: #dc3545; }
+        .status-box { padding: 10px; margin-bottom: 15px; background: white; border-radius: 6px; border: 1px solid #ddd; }
+    </style>
+</head>
+<body>
+    <h3>Feedback Filler</h3>
+    <div class="status-box">
+        <span id="statusText">Status: <b style="color:red">OFF</b></span>
+    </div>
+    <button id="toggleBtn">START FILLING</button>
+    <script src="popup.js"></script>
+</body>
+</html>
