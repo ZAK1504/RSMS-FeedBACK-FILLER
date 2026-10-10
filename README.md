@@ -22,7 +22,7 @@ To use this extension, follow these simple steps to load it into your browser as
    - In Edge, type `edge://extensions/` and press Enter.
 
 3. **Enable Developer Mode:**
-   - On the Extensions page, look for the **Developer mode** toggle (usually in the top right corner) and turn it ON.
+   - On the Extensions page, look for the **Developer mode** toggle (usually in the bottom left corner) and turn it ON.
 
 4. **Load the Extension:**
    - Click on the **Load unpacked** button that appears after enabling Developer mode.
